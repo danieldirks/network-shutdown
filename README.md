@@ -2,6 +2,8 @@
 
 A little script that exposes an API for power management over the network
 
+[![MIT License](https://img.shields.io/github/license/danieldirks/init.vim.svg)](LICENSE)
+
 **WARNING:** Do NOT use this in insecure or publicly available networks. There is currently no authentication mechanism to prevent unauthorized access.
 
 ## Installation
@@ -36,3 +38,7 @@ The script exposes a REST API with [flask-restful](https://github.com/flask-rest
 - `/reboot` - Runs the [reboot command](config.ini)
 - `/suspend` - Runs the [suspend command](config.ini)
 - `/lock` - Runs the [lock command](config.ini)
+
+## License
+
+The project is licensed under the [MIT License](LICENSE).
