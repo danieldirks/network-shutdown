@@ -33,4 +33,4 @@ api.add_resource(Suspend, '/suspend')
 api.add_resource(Lock, '/lock')
 
 if __name__ == '__main__':
-    app.run(port = config['default']['port'])
+    app.run(host = '0.0.0.0', port = config['default']['port'])
