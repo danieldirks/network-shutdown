@@ -2,17 +2,18 @@
 
 A little script that exposes an API for power management over the network
 
-[![MIT License](https://img.shields.io/github/license/danieldirks/init.vim.svg)](LICENSE)
+[![MIT License](https://img.shields.io/github/license/danieldirks/network-shutdown.svg)](LICENSE)
 
 **WARNING:** Do NOT use this in insecure or publicly available networks. There is currently no authentication mechanism to prevent unauthorized access.
 
 ## Installation
 
 Clone the repository, create a virtual environment in the directory `.venv` and install all dependencies:
+
 ```
 git clone https://github.com/danieldirks/network-shutdown.git
 cd network-shutdown
-virtualenv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 deactivate
